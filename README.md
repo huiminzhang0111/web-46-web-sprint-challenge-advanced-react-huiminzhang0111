@@ -103,9 +103,13 @@ You will also need to build the two tests in the `CheckoutForm.test.js` file and
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Add your answers to the questions within `interview_answers.md` file. These will not be counted as a part of your sprint score but will be helpful for preparing you for your endorsement interview, and enhancing overall understanding.
 
 1. What are the main differences between a stateful and a functional component?
+- a functional component is known as stateless component as it simply accpets data and display them in some form, that they are mainly resposible for rendering UI. it is just a javascript functional component which accepts props and returns a React element. While stateful component (class component) implements logic and state.
 
 2. When does a componentWillMount function be called? What about a componentWillUpdate?
+- componentWillMount is invoked just before mounting occurs. It is called right before render(). componentWillUpdate is to manipulate the component just before it receives new props or state.
 
 3. Define stateful logic.
+- it is any code that uses state, but in the case of hooks I would define it as a behavior created with the use of one or more hooks.
 
 4. What are the three step of creating a successful test? What is done in each phase?
+- 1. arrange: render our component; 2. act: fill out and submit our form; 3. assert: find what will appear on the page and verify it exists.
